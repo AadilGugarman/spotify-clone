@@ -244,10 +244,108 @@ margin-right: 0.5rem;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.footer{
-   width: 100vw;
-   height: 75px;
-   background-color: #000000;
-   position: fixed;
-   bottom: 0;
+.music-player {
+    background-color:#000000;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 72px;
+   padding: 0.75rem;
+    display: flex;
+}
+.album{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.album-pic{
+    height: 4rem;
+    width: 4rem;
+}
+.album-abt{
+    margin-right: 2.5rem;
+}
+.abt-1{
+   font-weight: 700;
+   line-height: 1rem;
+}
+.abt-2{
+    font-size: 0.75rem;
+    opacity: 0.6;
+    line-height: 1rem;
+}
+.album-icon1{
+    opacity: 0.7;
+    height: 1.25rem;
+}
+.album-icon2{
+    opacity: 0.7;
+    height: 1.75rem;
+    margin-right: 1.5rem;
+}
+.player{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.music-control{
+    display: flex;
+    width: 50%;
+    height: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.music-icons{
+    height: 1rem;
+    width: 1rem;
+    opacity: 0.6;
+}
+.play{
+    height: 2rem;
+    width: 2rem;
+    opacity: 0.6;
+}
+.playback{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.playback-bar{
+    width: 70%;
+}
+.time{
+    margin: 0  0.5rem;
+    opacity: 0.7;
+    font-size: 0.75rem;
+}
+.controls{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-right: 4rem;
+}
+.control{
+    margin-right: 1.5rem;
+}
+.ctrl-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.ctrl-iconx{
+    height: 1.5rem;
+    width: 1.5rem;
+    opacity: 0.6;
+}
+.ctrl-icony{
+    height: 1.5rem;
+    width: 1.5rem;
+    opacity: 0.6;
+}
+.volume-bar{
+
 }
