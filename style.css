@@ -269,8 +269,15 @@ margin-right: 0.5rem;
     
 }
 .artist{
-    margin:0 1rem 1.5rem 0;
-    
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    position: relative;
+      
+}
+.artist:hover{
+    background-color: #1f1f1f;
+    border-radius: 0.65rem;
+    cursor: pointer;
 }
 .artist img{
     height: 150px;
@@ -278,22 +285,59 @@ margin-right: 0.5rem;
     border-radius: 50%;
 
 }
+.artist:hover .music-play{
+    opacity: 1;
+} 
+
+.music-play{
+    font-size: 3.3rem;
+    position: absolute;
+    bottom: 5.55rem;
+    right: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    opacity: 0;
+    background-color: #000000;
+    color: #1db954;
+    border: none;
+    transition:0.3s ease;
+}
 
 .card {
     width: 160px; 
     border-radius: 10px;
     text-align: left;
-    
+    position: relative;   
 }
 .card:hover{
     background-color: #1f1f1f;
     cursor: pointer;
+}
+.card:hover .card-play{
+    opacity: 1;
 }
 
 .card img {
     width: 160px;
     height: 160px;
     border-radius: 10px; 
+}
+.card-play{
+    font-size: 3rem;
+    position: absolute;
+    top: 6.4rem;
+    right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #1db954;
+    transition:0.3s ease;
+    border: none;
+    opacity: 0;
 }
 
 .p1 {
