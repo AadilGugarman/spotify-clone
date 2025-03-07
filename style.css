@@ -262,6 +262,7 @@ margin-right: 0.5rem;
     width: 70%;
     height: 100vh;
     overflow: auto;
+    flex: 1;
 }
 .card-heading{
     display: flex;
@@ -487,4 +488,10 @@ margin-right: 0.5rem;
     height: 1.5rem;
     width: 1.5rem;
     opacity: 0.6;
+}
+
+@media (max-width:900px){
+    .sidebar{
+        display: none;
+    }
 }
